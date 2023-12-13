@@ -31,14 +31,7 @@ jobs:
         with:
           filename: ${{ github.event.repository.name }}.zip
           exclusions:
-            - .git
-            - .github
-            - .wordpress-org
-            - .distignore
-            - .gitignore
-            - .gitattributes
-            - Makefile
-            - readme.md
+            .git .github .wordpress-org .distignore .gitignore .gitattributes Makefile readme.md
         
 #      - name: WordPress Plugin Deploy
 #        id: deploy
