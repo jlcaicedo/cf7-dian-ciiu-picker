@@ -5,7 +5,7 @@
 * Plugin URI: http://josecaicedo.co
 * Description: Este plugin es exclusivo para Contact Form 7 y permite mostrar la Clasificación CIIU de Colombia según la DIAN en una lista seleccionable.
 * Author: Jose Caicedo
-* Version: 1.0
+* Version: 1.0.1
 * Author URI: http://josecaicedo.co
 * Text Domain: cf7-ciuu-list
 * License: GPL v2 or later
