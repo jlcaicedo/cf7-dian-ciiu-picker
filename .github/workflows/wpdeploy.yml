@@ -31,12 +31,6 @@ jobs:
         with:
           filename: ${{ github.event.repository.name }}.zip
           exclusions: .git, .github, .wordpress-org, .distignore, .gitignore, .gitattributes, Makefile, readme.md
-          
-          recursive_exclusions: # optional, default is
-          # Provide any custom parameters to the command
-          custom: # optional, default is
-          # Tool to use for archiving
-          type: # optional, default is zip
         
 #      - name: WordPress Plugin Deploy
 #        id: deploy
