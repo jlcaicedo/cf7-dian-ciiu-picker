@@ -24,7 +24,13 @@ jobs:
           release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
-      
+          
+      - name: Create Zip Release
+        id: zip
+        uses: darshitsri/zip-release@v3
+        with:
+          filename: ${{ github.event.repository.name }}.zip
+        
 #      - name: WordPress Plugin Deploy
 #        id: deploy
 #        uses: 10up/action-wordpress-plugin-deploy@stable
