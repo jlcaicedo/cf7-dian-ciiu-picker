@@ -30,7 +30,7 @@ jobs:
         uses: darshitsri/zip-release@v3
         with:
           filename: ${{ github.event.repository.name }}.zip
-          exclusions: .git, .git/, .github .github/, .wordpress-org, .distignore, Makefile, readme.md
+          exclusions: .git .git/ .git/* .github .github/ .wordpress-org .distignore Makefile readme.md
         
 #      - name: WordPress Plugin Deploy
 #        id: deploy
