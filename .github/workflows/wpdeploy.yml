@@ -27,10 +27,11 @@ jobs:
           
       - name: Create Zip Release
         id: zip
-        uses: darshitsri/zip-release@v3
+        uses: thedoctor0/zip-release@0.7.5
         with:
+          type: 'zip'
           filename: ${{ github.event.repository.name }}.zip
-          exclusions: .git .git/ .git/* .github .github/ .wordpress-org .distignore Makefile readme.md
+          exclusions: '*.git* .wordpress-org .distignore Makefile README.md'
         
 #      - name: WordPress Plugin Deploy
 #        id: deploy
