@@ -33,14 +33,14 @@ jobs:
           filename: ${{ github.event.repository.name }}.zip
           exclusions: '*.git* .wordpress-org .distignore Makefile README.md'
         
-      - name: WordPress Plugin Deploy
-        id: deploy
-        uses: 10up/action-wordpress-plugin-deploy@stable
-        with:
-          generate-zip: true
-        env:
-          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+#      - name: WordPress Plugin Deploy
+#        id: deploy
+#        uses: 10up/action-wordpress-plugin-deploy@stable
+#        with:
+#          generate-zip: true
+#        env:
+#          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+#          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
       
       - name: Upload Release Asset
         id: upload
