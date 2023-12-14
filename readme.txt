@@ -1,55 +1,47 @@
-=== Contact Form 7 CIUU List ===
-Plugin Name: Lista de Códigos CIIU para Contact Form 7
-Contributors: jlcaicedo
-Plugin URI: http://josecaicedo.co
-Donate link: https://www.paypal.com/paypalme/JoseLuisCaicedo
-Tags: contact form, dian
-Author: Jose Caicedo
-Version: 1.0
-Author URI: http://josecaicedo.co
-Requires at least: 5.1
-Tested up to: 5.5
-Requires PHP: 7.2
-Stable tag: 1.1
+=== CF7 DIAN CIIU Picker ===
+Contributors: josecaicedo
+Tags: contact form 7, ciiu, dian, colombia, form
+Requires at least: 4.6
+Tested up to: 5.7
+Stable tag: 1.0.2
+Requires PHP: 5.6
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+This plugin is exclusively for Contact Form 7 and allows displaying the CIIU Classification of Colombia according to DIAN in a selectable list.
 
 == Description ==
 
-Este plugin para WordPress es una extensión exclusiva para Contact Form 7 que permite mostrar la Clasificación Industrial Internacional Uniforme (CIIU) de Colombia según la DIAN en una lista desplegable seleccionable.
-
-El plugin Lista de Códigos CIIU integra una lista desplegable en Contact Form 7 con los códigos CIIU, facilitando la clasificación de actividades económicas en Colombia. Este plugin es esencial para sitios web que requieren de formularios con clasificación de actividades económicas.
-
-== Características ==
-
-- Añade una lista desplegable de códigos CIIU a Contact Form 7.
-- Utiliza datos actualizados según la clasificación de la DIAN.
-- Fácil de implementar y usar.
-
-== Support or Contact ==
-
-Having trouble with Pages? Check out our [documentation](https://github.com/jlcaicedo/cf7-ciuu-list) or [contact support](mailto:jlcaicedo@outlook.com) and we’ll help you sort it out.
+CF7 DIAN CIIU Picker is a simple yet powerful plugin for Contact Form 7 that integrates the CIIU classification system, making it easy to include in your forms.
+It's perfect for businesses in Colombia who need to categorize their services or products according to the DIAN standards.
 
 == Installation ==
 
-1. Upload `cf7-ciuu-list` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload `cf7-dian-ciiu-picker` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Use the tag `codigos_ciuu` in your Contact Form 7 forms to display the CIIU list.
 
 == Frequently Asked Questions ==
 
-= What is sjsocialmedia.com? =
+= Does this plugin work with other form plugins? =
 
-Is a Agency to Digital Marketing and specialist to WordPress
+No, it is exclusively designed for Contact Form 7.
+
+= Where can I find the CIIU codes? =
+
+The CIIU codes are included in a JSON file within the plugin. They are loaded automatically when you use the `codigos_ciuu` tag in your forms.
 
 == Screenshots ==
 
-1. Here we see the parameters that have been sent and we can see that we send the correct content type parameters and name to facebook.
-2. Here we see the parameters that have been sent and we can see that we send the correct content type parameters, the name and the internal ID of wordpress to Facebook for better monitoring.
+1. The CIIU dropdown in a Contact Form 7 form.
+2. Admin settings for the plugin (if applicable).
 
 == Changelog ==
 
-= 1.1 =
-* tested plugin with WordPress 7.2
+= 1.0.2 =
+* Initial release.
 
-= 1.0 =
-* Initial release on WordPress.org
+== Upgrade Notice ==
+
+= 1.0.2 =
+Initial Release.
