@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: CF7 DIAN CIIU Picker
- * Plugin URI: http://josecaicedo.co
+ * Plugin URI: http://josecaicedo.co/plugins/cf7-dian-ciiu-picker
  * Description: This plugin is exclusively for Contact Form 7 and allows displaying the CIIU Classification of Colombia according to DIAN in a selectable list.
- * Author: Jose Caicedo
  * Version: 1.0.2
+ * Author: Jose Luis Caicedo
  * Author URI: http://josecaicedo.co
- * Text Domain: cf7-dian-ciiu-picker
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: cf7-dian-ciiu-picker
  */
 
 if (!defined('ABSPATH')) {
